@@ -1,0 +1,111 @@
+.jobItemDetailsCont {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+.jobItemsCard {
+  background-color: #272727;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.titleAndRatingCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoAndJobInfo {
+  display: flex;
+  border: 1px solid gray;
+  width: 400px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid yellowgreen;
+}
+.locationAndPositionCont {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+  align-items: center;
+}
+
+.locationAndPositionCard {
+  display: flex;
+}
+.mapMarkerAndBreifCaseIcon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.horizontalLine {
+  color: #64748b;
+}
+.ratCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50px;
+}
+.ratIcon {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+.ratText {
+  font-family: 'roboto';
+  font-size: 16px;
+}
+.positionAndRatingCard {
+  display: flex;
+  flex-direction: column;
+}
+.companyAndPostionCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+  width: 250px;
+}
+.descriptionHeadingAndVisitLink {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobItemIcon {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.locationCont {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.employmentTypeCont {
+  display: flex;
+  align-items: center;
+}
+
+.listJobCard {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .similarJobsSection {
+    width: 35%;
+  }
+}

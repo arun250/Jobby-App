@@ -1,0 +1,141 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid gray;
+  background-color: black;
+}
+
+.website-logo-mobile-image {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.website-logo-desktop-image {
+  width: 250px;
+  height: 100px;
+  display: none;
+}
+.form-container {
+  border: 1px solid gray;
+  width: 400px;
+  height: 330px;
+  border-radius: 8px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 25px;
+}
+.loginButton {
+  color: white;
+  background-color: #4f46e5;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  font-family: 'roboto';
+  border: none;
+  border-radius: 8px;
+}
+.username-label {
+  color: white;
+  font-size: 15px;
+  font-family: 'roboto';
+  margin-bottom: 10px;
+}
+.usernameField {
+  font-size: 15px;
+  font-family: 'roboto';
+  width: 350px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  color: white;
+}
+.usernameContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-label {
+  color: white;
+  font-size: 15px;
+  font-family: 'roboto';
+  margin-bottom: 10px;
+}
+.passwordField {
+  font-size: 15px;
+  font-family: 'roboto';
+  width: 350px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  color: white;
+}
+.logoImageContainer {
+  display: flex;
+  justify-content: center;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .website-logo-mobile-image {
+    display: none;
+  }
+
+  .website-logo-desktop-image {
+    width: 180px;
+    height: 100px;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .form-container {
+    border: 1px solid gray;
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .loginButton {
+    font-size: 22px;
+  }
+  .username-label {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .usernameField {
+    font-size: 22px;
+    width: 550px;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .password-label {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .passwordField {
+    font-size: 22px;
+    width: 550px;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+}

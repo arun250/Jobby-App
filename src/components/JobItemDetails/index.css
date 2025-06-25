@@ -1,0 +1,137 @@
+.jobItemDetailsContainer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+.jobItemCard {
+  background-color: #272727;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 95%;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.locationAndPositionContainer {
+  display: flex;
+  width: 300px;
+  border: 1px solid gray;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mapMarkerAndBreifCaseIcon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.horizontalLine {
+  color: #64748b;
+}
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 100px;
+}
+.ratingIcon {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+.ratingText {
+  font-family: 'roboto';
+}
+.positionAndRatingCard {
+  display: flex;
+  flex-direction: column;
+}
+.companyAndPostionCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+  width: 250px;
+}
+.descriptionHeadingAndVisitLink {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.descriptionText {
+  color: white;
+  font-size: 18px;
+}
+.descriptionContainer {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.skillsContainer {
+  border: 1px solid gray;
+  width: 85%;
+}
+.skillIcon {
+  margin-right: 20px;
+}
+.skillItem {
+  list-style-type: none;
+  display: flex;
+
+  align-items: center;
+}
+.skillsList {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.unorderedList {
+  list-style-type: none;
+  display: flex;
+  border: 1px solid gray;
+  width: 200px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.lifeAtCompanyCard {
+  border: 1px solid gray;
+  display: flex;
+}
+.similarJobsSection {
+  background-color: #272727;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 95%;
+  margin-bottom: 20px;
+}
+.similarJobsText {
+  display: flex;
+  align-self: flex-start;
+}
+
+.similarList {
+  list-style-type: none;
+}
+
+.similarJobsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .similarJobsSection {
+    width: 25%;
+  }
+}

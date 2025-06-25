@@ -1,0 +1,137 @@
+.searchJobsInput {
+  width: 450px;
+  height: 40px;
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+}
+.searchBoxContainer {
+  border: 1px solid gray;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  font-size: 25px;
+  color: white;
+}
+.searchButton {
+  height: 40px;
+  padding: 5px 20px 5px 20px;
+  background-color: #272727;
+  border: none;
+}
+.profileIcon {
+  width: 100px;
+  height: 100px;
+}
+.profileContainer {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.checkboxSalaryRange {
+  display: flex;
+  margin-right: 10px;
+}
+.checkboxTypesOfEmployment {
+  display: flex;
+  margin-right: 10px;
+}
+.renderJobsContainer {
+  width: 500px;
+  border: 1px solid gray;
+}
+
+.retryButton {
+  color: white;
+  padding: 5px 10px 5px 10px;
+  background-color: #6366f1;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.unorderedJobCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rebeccapurple;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 65%;
+}
+
+.profileName {
+  color: #b6c5ff;
+  font-size: 27px;
+  font-family: 'roboto';
+}
+
+.profileShortBio {
+  font-size: 17px;
+  font-family: 'roboto';
+}
+
+.typesOfEmployment {
+  display: flex;
+  border: 1px solid gray;
+  margin-bottom: 12px;
+}
+
+.salaryRange {
+  display: flex;
+  border: 1px solid gray;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .jobsContainerDesktopView {
+    display: flex;
+    flex-direction: row;
+  }
+  .leftSection {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+    height: 100vh;
+    width: 400px;
+  }
+  .displayContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .horizontalLine {
+    color: #b6c5ff;
+    width: 350px;
+  }
+  .typesOfEmploymentHeading {
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 500;
+  }
+  .salaryRangeHeading {
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 500;
+  }
+  .searchAndJobsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid gray;
+    margin: auto;
+    margin-top: 20px;
+    width: 65%;
+  }
+}
