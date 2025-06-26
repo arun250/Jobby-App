@@ -266,7 +266,9 @@ class JobItemDetails extends Component {
       case apiStatusConstants.success:
         return (
           <div>
-            {this.renderJobDetailsData()}
+            <div className="renderJobDetailsData">
+              {this.renderJobDetailsData()}
+            </div>
             <h1 className="similarJobsText">Similar Jobs</h1>
             <div className="similarJobsContainer">
               {this.renderSimilarJobs()}

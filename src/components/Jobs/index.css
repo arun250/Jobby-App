@@ -26,7 +26,6 @@
   height: 100px;
 }
 .profileContainer {
-  border: 1px solid gray;
   border-radius: 10px;
   padding: 20px;
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
@@ -59,7 +58,7 @@
 .unorderedJobCard {
   display: flex;
   flex-direction: column;
-  border: 1px solid rebeccapurple;
+
   margin-left: 0px;
   padding-left: 0px;
   width: 65%;
@@ -78,13 +77,13 @@
 
 .typesOfEmployment {
   display: flex;
-  border: 1px solid gray;
+
   margin-bottom: 12px;
 }
 
 .salaryRange {
   display: flex;
-  border: 1px solid gray;
+
   margin-bottom: 12px;
 }
 
@@ -94,7 +93,6 @@
     flex-direction: row;
   }
   .leftSection {
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -129,7 +127,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border: 2px solid gray;
+
     margin: auto;
     margin-top: 20px;
     width: 65%;

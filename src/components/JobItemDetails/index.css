@@ -3,16 +3,17 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
   color: white;
 }
 
 .jobItemCard {
+  margin-top: 10px;
   background-color: #272727;
-  border: 1px solid green;
   border-radius: 10px;
   padding: 20px;
   color: white;
-  width: 95%;
+  width: 90%;
 }
 .infoContainer {
   display: flex;
@@ -20,8 +21,8 @@
 }
 .locationAndPositionContainer {
   display: flex;
-  width: 300px;
-  border: 1px solid gray;
+  width: 400px;
+
   justify-content: flex-start;
   align-items: center;
 }
@@ -37,7 +38,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
+
   width: 100px;
 }
 .ratingIcon {
@@ -56,7 +57,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
+
   width: 250px;
 }
 .descriptionHeadingAndVisitLink {
@@ -69,11 +70,9 @@
   font-size: 18px;
 }
 .descriptionContainer {
-  border: 1px solid gray;
   padding: 10px;
 }
 .skillsContainer {
-  border: 1px solid gray;
   width: 85%;
 }
 .skillIcon {
@@ -96,18 +95,17 @@
 .unorderedList {
   list-style-type: none;
   display: flex;
-  border: 1px solid gray;
+
   width: 200px;
   margin-left: 0px;
   padding-left: 0px;
 }
 .lifeAtCompanyCard {
-  border: 1px solid gray;
   display: flex;
 }
 .similarJobsSection {
   background-color: #272727;
-  border: 1px solid green;
+
   border-radius: 10px;
   padding: 20px;
   color: white;
@@ -134,4 +132,11 @@
   .similarJobsSection {
     width: 25%;
   }
+}
+
+.renderJobDetailsData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

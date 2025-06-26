@@ -1,10 +1,8 @@
-import {IoMdHome} from 'react-icons/io'
+import {IoMdHome, IoIosLogOut} from 'react-icons/io'
 
 import {Redirect, Link, withRouter} from 'react-router-dom'
 
 import {BsBriefcaseFill} from 'react-icons/bs'
-
-import {IoIosLogOut} from 'react-icons/io'
 
 import Cookies from 'js-cookie'
 
@@ -27,7 +25,7 @@ const Header = props => {
           />
         </Link>
         <div>
-          <ul>
+          <ul className="unorderedList">
             <Link to="/" className="nav-link">
               <li>
                 <IoMdHome className="navbarIcons" />

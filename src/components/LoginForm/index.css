@@ -95,10 +95,6 @@
 }
 
 @media (min-width: 768px) {
-  .website-logo-mobile-image {
-    display: none;
-  }
-
   .website-logo-desktop-image {
     width: 180px;
     height: 100px;

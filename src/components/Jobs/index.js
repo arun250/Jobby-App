@@ -377,7 +377,6 @@ class Jobs extends Component {
               id={`checkbox-${eachItem.locationId}`}
               className="checkboxTypesOfEmployment"
               onChange={() => this.changeLocationFilter(eachItem.locationId)}
-              checked={activeLocation.includes(eachItem.locationId)}
             />
             <label htmlFor={`checkbox-${eachItem.locationId}`}>
               {eachItem.label}

@@ -8,7 +8,7 @@
 
 .jobItemsCard {
   background-color: #272727;
-  border: 1px solid green;
+
   border-radius: 10px;
   padding: 20px;
   color: white;
@@ -21,7 +21,7 @@
 
 .logoAndJobInfo {
   display: flex;
-  border: 1px solid gray;
+
   width: 400px;
   justify-content: flex-start;
   align-items: center;
@@ -31,12 +31,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid yellowgreen;
 }
 .locationAndPositionCont {
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
+
   align-items: center;
 }
 
@@ -73,7 +72,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
+
   width: 250px;
 }
 .descriptionHeadingAndVisitLink {
@@ -108,4 +107,8 @@
   .similarJobsSection {
     width: 35%;
   }
+}
+
+.linkedContainer {
+  text-decoration: none;
 }

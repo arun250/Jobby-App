@@ -1,8 +1,6 @@
-import {FaMapMarkerAlt} from 'react-icons/fa'
+import {FaMapMarkerAlt, FaStar} from 'react-icons/fa'
 
 import {BsBriefcaseFill} from 'react-icons/bs'
-
-import {FaStar} from 'react-icons/fa'
 
 import {Link} from 'react-router-dom'
 
@@ -22,7 +20,7 @@ const JobCard = props => {
   } = jobDetails
   return (
     <li className="listJobCard">
-      <Link to={`/jobs/${id}`}>
+      <Link to={`/jobs/${id}`} className="linkedContainer">
         <div className="jobItemsCard">
           <div className="logoAndJobInfo">
             <img
