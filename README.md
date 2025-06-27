@@ -1,6 +1,6 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
-## Published Url : jobby-app-plum-beta.vercel.app
+## Published Url : https://jobby-app-plum-beta.vercel.app
 
 
 ### Refer to videos below:
